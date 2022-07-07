@@ -12,7 +12,7 @@ Link do projeto de referência https://github.com/PI-InfoWeb-CNAT/comercioeletro
 - Documento de Visão
 - [Diagrama de casos de uso](https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/diagrama_de_casos_de_uso.jpg)
 - [Diagrama de classes do domínio](https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/diagrama_de_classes.jpg)
-- Mapa do site
+- [Mapa do site](https://www.figma.com/file/4iUE8blA1ybmIiZCD3dtBZ/Mapa-do-Site?node-id=0%3A1)
 - [Protótipos do site](https://www.figma.com/file/QoyzXNWz4s2cGq8V7gnJkf/Malfatti)
 
 ## Documento de Visão
