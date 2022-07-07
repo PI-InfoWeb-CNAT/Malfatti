@@ -95,5 +95,8 @@ e responsável, de modo a garantir a efetividade e proteção de cada uma de sua
 | F08    |||
 | F09    |||
 | F10    |||
+| F11    |||
+| F12    |||
+| F13    |||
 
 ### 9. Requisitos NÃO Funcionais
