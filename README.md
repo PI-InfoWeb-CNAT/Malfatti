@@ -95,8 +95,15 @@ e responsável, de modo a garantir a efetividade e proteção de cada uma de sua
 | F08    | Realizar cadastro e login no site | O usuário deve se cadastrar no site para acessar determinadas funcionalidades, por exemplo, comprar produtos. |
 | F09    | Realizar a compra de produtos | Os clientes podem confirmar a compra de produtos - adicionados ou não em sua cesta de compras -, gerando um pedido. |
 | F10    | Realizar o cancelamento de pedidos | Os clientes podem solicitar o cancelamento de um pedido realizado desde que ainda não tenha sido enviado. |
-| F11    |||
-| F12    |||
-| F13    |||
+| F11    | Realizar a devolução de produtos | Os clientes podem efetuar a devolução de produtos até um prazo determinado desde que não tenham sido danificados. |
+| F12    | Verificar compras realizadas | Os clientes podem verificar seu histórico de compra na loja. |
+| F13    | Verificar o andamsnti do pedido | Os clientes podem acompanhar o andamento da entrega dos produtos solicitados. |
+| F14    | Editar dados cadastrais | Os clientes podem editar seus dados cadastrais, como endereço de entrega e telefone para contato. |
 
 ### 9. Requisitos NÃO Funcionais
+
+| Código | Nome              | Descrição | Categoria | Classificação |
+|:-------|:------------------|:----------|:----------|:--------------|
+| NF01   | Design responsivo | O site apresentará responsividade, deixando-o mais confortável para o usuário. | Usabilidade | Obrigatório |
+| NF02   | Acesso somente com internet | Se faz necessário o acesso contínuo à internet para realizar o acesso aos dados do site e suas funcionalidades. | Disponibilidade | Obrigatório |
+| NF03   | Criptografia de dados | Informações sensíveis aos usuários, como senhas, devem ser gravadas de forma criptografada no banco de dados. | Segurança | Obrigatório
