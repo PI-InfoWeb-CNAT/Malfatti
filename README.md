@@ -21,12 +21,12 @@ Link do projeto de referência https://github.com/PI-InfoWeb-CNAT/comercioeletro
 
 | Data       | Versão | Descrição                                              | Autor                          | 
 |:-----------|:-------|:-------------------------------------------------------|:-------------------------------|
-| 30/05/2022 | 1.0    | Criação e anexo de dados iniciaisdo documento de visão | Antoniella de Araújo Monsores  |
-| 30/05/2022 | 1.0    | Criação e anexo de dados iniciaisdo documento de visão | Jainne Agatha Costa Bezerra    |
-| 30/05/2022 | 1.0    | Criação e anexo de dados iniciaisdo documento de visão | Laiz Fernanda Souza dos Santos |
-| 30/05/2022 | 1.0    | Criação e anexo de dados iniciaisdo documento de visão | Letícia Maia Marques           |
-| 30/05/2022 | 1.0    | Criação e anexo de dados iniciaisdo documento de visão | Maria Clara Medeiros Ricarte   |
-| 30/05/2022 | 1.0    | Criação e anexo de dados iniciaisdo documento de visão | Winnie Bianca da Silva Almeida |
+| 30/05/2022 | 1.0    | Criação e anexo de dados iniciais do documento de visão | Antoniella de Araújo Monsores  |
+| 30/05/2022 | 1.0    | Criação e anexo de dados iniciais do documento de visão | Jainne Agatha Costa Bezerra    |
+| 30/05/2022 | 1.0    | Criação e anexo de dados iniciais do documento de visão | Laiz Fernanda Souza dos Santos |
+| 30/05/2022 | 1.0    | Criação e anexo de dados iniciais do documento de visão | Letícia Maia Marques           |
+| 30/05/2022 | 1.0    | Criação e anexo de dados iniciais do documento de visão | Maria Clara Medeiros Ricarte   |
+| 30/05/2022 | 1.0    | Criação e anexo de dados iniciais do documento de visão | Winnie Bianca da Silva Almeida |
 
 ### 1. Objetivo do Projeto
 
