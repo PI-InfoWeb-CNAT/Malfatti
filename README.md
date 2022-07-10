@@ -97,7 +97,7 @@ e responsável, de modo a garantir a efetividade e proteção de cada uma de sua
 | F10    | Realizar o cancelamento de pedidos | Os clientes podem solicitar o cancelamento de um pedido realizado desde que ainda não tenha sido enviado. |
 | F11    | Realizar a devolução de produtos | Os clientes podem efetuar a devolução de produtos até um prazo determinado desde que não tenham sido danificados. |
 | F12    | Verificar compras realizadas | Os clientes podem verificar seu histórico de compra na loja. |
-| F13    | Verificar o andamsnti do pedido | Os clientes podem acompanhar o andamento da entrega dos produtos solicitados. |
+| F13    | Verificar o andamento do pedido | Os clientes podem acompanhar o andamento da entrega dos produtos solicitados. |
 | F14    | Editar dados cadastrais | Os clientes podem editar seus dados cadastrais, como endereço de entrega e telefone para contato. |
 
 ### 9. Requisitos NÃO Funcionais
