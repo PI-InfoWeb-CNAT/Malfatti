@@ -78,23 +78,23 @@ Esse projeto idealiza a criação de uma joalheria online.
 O site desenvolvido propõe um design agradável e acessível e pretende funcionar de forma rápida e
 eficiente, proporcionando uma boa experiência aos seus usuários.
 <br>
-Para mais, os potenciais clientes [usuários como um todo] devem ser apresentados a um ambiente seguro
+Para mais, os potenciais clientes - usuários como um todo - devem ser apresentados a um ambiente seguro
 e responsável, de modo a garantir a efetividade e proteção de cada uma de suas aquisições.
 
 ### 8. Requisitos Funcionais
 
 | Código | Nome                                   | Descrição |
-|:-------|:---------------------------------------|:------------------------|
+|:-------|:---------------------------------------|:----------|
 | F01    | Adicionar, remover ou alterar produtos | O administrador tem à sua disponibilidade a função de adicionar, remover ou alterar produtos comercializados no site estabelecendo ainda seus preços de venda. |
-| F02    |||
-| F03    |||
-| F04    |||
-| F05    |||
-| F06    |||
-| F07    |||
-| F08    |||
-| F09    |||
-| F10    |||
+| F02    | Disponibilizar ou bloquear a apresentação do produto | O administrador tem à sua disponibilidade a função de liberar ou bloquear a apresentação de produtos a venda. |
+| F03    | Consultar pedidos | O administrador pode acessar os dados de pedidos que foram realizadas pelos clientes - para produtos já remetidos ou não. |
+| F04    | Registrar recebimento do pagamento | O administrador registra no site a identificação do recebimento do pagamento realizado pelo cliente, liberando o pedido para envio. |
+| F05    | Registrar o envio do pedido | O administrador informa no site a forma e condições de envio do pedido ao cliente. |
+| F06    | Visualizar produtos | O usuário visualiza os produtos disponíveis, podendo utilizar de meios de filtro por nome, marca, ou outro. |
+| F07    | Adicionar ou remover produtos da cesta de compras | O usuário pode escolher mais de um produto para realizar a compra quando inseridos em sua cesta de compras. |
+| F08    | Realizar cadastro e login no site | O usuário deve se cadastrar no site para acessar determinadas funcionalidades, por exemplo, comprar produtos. |
+| F09    | Realizar a compra de produtos | Os clientes podem confirmar a compra de produtos - adicionados ou não em sua cesta de compras -, gerando um pedido. |
+| F10    | Realizar o cancelamento de pedidos | Os clientes podem solicitar o cancelamento de um pedido realizado desde que ainda não tenha sido enviado. |
 | F11    |||
 | F12    |||
 | F13    |||
