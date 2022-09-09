@@ -96,7 +96,7 @@
 </ul>
 
 #### 6 - Protótipos de interface 
-| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Cadastro%20Categoria%20adm.png" width=500><br><sub>Cadastro</sub>](#) |  [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Lista%20de%20Categorias%20adm.png" width=500><br><sub>Listagem</sub>](#) | 
+| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Cadastro%20Categoria%20adm.png" width=500><br><sub>Cadastro</sub>](#) |  [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Lista%20de%20Categorias%20adm.png" width=500><br><sub>Listagem para edição e exclusão</sub>](#) | 
 | :---: | :---: |  
 
 
@@ -189,9 +189,8 @@
   </ul>
   
   #### 6 - Protótipos de interface 
-| [<img src="https://user-images.githubusercontent.com/79111102/189199679-b3821e8a-a5fe-4dbe-8cad-d5bf3ad7376a.png" width=500><br><sub>Inserir</sub>](#) |  [<img src="https://user-images.githubusercontent.com/79111102/189203079-9d03b78f-93a9-4ee5-b200-9a4b78fb9359.png" width=500><br><sub>Excluir</sub>](#) | 
-| :---: | :---: |
-| [<img src="https://user-images.githubusercontent.com/79111102/189203135-9a0eec2b-e34b-43f4-b54b-8c7bdad2ffa2.png" width=500><br><sub>Alterar</sub>](#) |  [<img src="https://user-images.githubusercontent.com/79111102/189202758-38705b5e-5499-4bde-8be9-d245efd02c82.png" width=500><br><sub>Estúdios registrados</sub>](#) | 
+| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Cadastro%20FABRICANTE%20adm.png" width=500><br><sub>Cadastro</sub>](#) |  [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Lista%20de%20Fabricantes%20adm.png" width=500><br><sub>Listagem para Edição e Exclusão</sub>](#) | 
+
   
 ---  
 
