@@ -1,4 +1,4 @@
-# Especificação de casos de uso ✠
+# Especificação de casos de uso 
 
 ## Comércio Eletrônico
 
