@@ -96,7 +96,7 @@
 </ul>
 
 #### 6 - Protótipos de interface 
-| [<img src="https://user-images.githubusercontent.com/79111102/189199679-b3821e8a-a5fe-4dbe-8cad-d5bf3ad7376a.png" width=500><br><sub>Cadastro</sub>](#) |  [<img src="https://user-images.githubusercontent.com/79111102/189201431-8f3da798-81e0-4453-8a30-03fb5376aaf0.png" width=500><br><sub>Listagem</sub>](#) | 
+| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Cadastro%20Categoria%20adm.png" width=500><br><sub>Cadastro</sub>](#) |  [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Lista%20de%20Categorias%20adm.png" width=500><br><sub>Listagem</sub>](#) | 
 | :---: | :---: |  
 
 
