@@ -96,7 +96,7 @@
 </ul>
 
 #### 6 - Protótipos de interface 
-| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Cadastro%20Categoria%20adm.png" width=500><br><sub>Cadastro</sub>](#) |  [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Lista%20de%20Categorias%20adm.png" width=500><br><sub>Listagem para edição e exclusão</sub>](#) | 
+| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Cadastro%20Categoria%20adm.png" width=500><br><sub>Cadastro</sub>](#) |  [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Lista%20de%20Categorias%20adm.png" width=500><br><sub>Listagem para edição e exclusão</sub>](#) | 
 | :---: | :---: |  
 
 
@@ -189,7 +189,7 @@
   </ul>
   
   #### 6 - Protótipos de interface 
-| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Cadastro%20FABRICANTE%20adm.png" width=500><br><sub>Cadastro</sub>](#) |  [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Lista%20de%20Fabricantes%20adm.png" width=500><br><sub>Listagem para Edição e Exclusão</sub>](#) | 
+| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Cadastro%20FABRICANTE%20adm.png" width=500><br><sub>Cadastro</sub>](#) |  [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Lista%20de%20Fabricantes%20adm.png" width=500><br><sub>Listagem para Edição e Exclusão</sub>](#) | 
 | :---: | :---: |  
   
 ---  
@@ -298,9 +298,9 @@
 
     
  #### 6 - Protótipos de interface 
-| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Cadastro%20Produto%20adm.png" width=500><br><sub>Cadastro</sub>](#) |  [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Editar%20produtos%20adm.png" width=500><br><sub>Editar</sub>](#) | 
+| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Cadastro%20Produto%20adm.png" width=500><br><sub>Cadastro</sub>](#) |  [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Editar%20produtos%20adm.png" width=500><br><sub>Editar</sub>](#) | 
 | :---: | :---: |
-| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Lista%20de%20Produtos%20adm.png" width=500><br><sub>Listagem</sub>](#) |  
+| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Lista%20de%20Produtos%20adm.png" width=500><br><sub>Listagem</sub>](#) |  
  
  ---
  
@@ -397,7 +397,7 @@
     
     
 #### 6 - Protótipos de interface 
-| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Cadastro%20de%20Usu%C3%A1rio.png" width=500><br><sub>Cadastro</sub>](#) |  [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Editar%20ou%20excluir.png" width=500><br><sub>Perfil de editar ou excluir</sub>](#) | 
+| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Cadastro%20de%20Usu%C3%A1rio.png" width=500><br><sub>Cadastro</sub>](#) |  [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Editar%20ou%20excluir.png" width=500><br><sub>Perfil de editar ou excluir</sub>](#) | 
 | :---: | :---: |
 
     
