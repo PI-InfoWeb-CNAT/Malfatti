@@ -287,7 +287,7 @@
     do produto é obrigatório e retornará ao passo 3.
     - Categoria vazia: Caso o usuário tente salvar alterações de um produto sem categoria, o sistema exibirá uma mensagem de erro informando que o atributo 
     Categoria é obrigatório e retornará ao passo 3.
-    - Fabricante vazio: Caso o usuário tente salvar alterações de um produto sem estúdio, o sistema exibirá uma mensagem de erro informando que o atributo 
+    - Fabricante vazio: Caso o usuário tente salvar alterações de um produto sem fabricante, o sistema exibirá uma mensagem de erro informando que o atributo 
     Fabricante é obrigatório e retornará ao passo 3.
     - Preço vazio: Caso o usuário tente salvar alterações de um produto sem preço, o sistema exibirá uma mensagem de erro informando que o atributo 
     Preço é obrigatório e retornará ao passo 3.
