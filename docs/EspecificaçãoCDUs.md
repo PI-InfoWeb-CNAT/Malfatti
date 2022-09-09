@@ -190,7 +190,7 @@
   
   #### 6 - Protótipos de interface 
 | [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Cadastro%20FABRICANTE%20adm.png" width=500><br><sub>Cadastro</sub>](#) |  [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Lista%20de%20Fabricantes%20adm.png" width=500><br><sub>Listagem para Edição e Exclusão</sub>](#) | 
-
+| :---: | :---: |  
   
 ---  
 
@@ -298,10 +298,9 @@
 
     
  #### 6 - Protótipos de interface 
-| [<img src="https://user-images.githubusercontent.com/79111102/189207165-c8d560bc-119b-4fdd-bdc1-9af50c084c47.png" width=500><br><sub>Inserir</sub>](#) |  [<img src="https://user-images.githubusercontent.com/79111102/189207354-57c2109f-3a3f-4297-b344-fe3d4a77a2bf.png" width=500><br><sub>Excluir</sub>](#) | 
+| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Cadastro%20Produto%20adm.png" width=500><br><sub>Cadastro</sub>](#) |  [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Editar%20produtos%20adm.png" width=500><br><sub>Editar</sub>](#) | 
 | :---: | :---: |
-| [<img src="https://user-images.githubusercontent.com/79111102/189207335-79445a3d-f96b-4ee6-86d3-82cd5b5c52b0.png" width=500><br><sub>Alterar</sub>](#) |  [<img src="https://user-images.githubusercontent.com/79111102/189207059-5d8dc16a-c78b-47e9-9078-5728c2d54a6a.png" width=500><br><sub>Produtos registrados</sub>](#) | 
- 
+| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Lista%20de%20Produtos%20adm.png" width=500><br><sub>Listagem</sub>](#) |  
  
  ---
  
@@ -398,9 +397,9 @@
     
     
 #### 6 - Protótipos de interface 
-| [<img src="https://user-images.githubusercontent.com/79111102/189208001-c56d3ab6-b6a9-45a6-88d9-6ec16cb4a7b2.png" width=500><br><sub>Inserir</sub>](#) |  [<img src="https://user-images.githubusercontent.com/79111102/189208307-d40fa8f6-9fc5-4a57-b2f5-e146aad5ab46.png" width=500><br><sub>Excluir</sub>](#) | 
+| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Cadastro%20de%20Usu%C3%A1rio.png" width=500><br><sub>Cadastro</sub>](#) |  [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Editar%20ou%20excluir.png" width=500><br><sub>Perfil de editar ou excluir</sub>](#) | 
 | :---: | :---: |
-| [<img src="https://user-images.githubusercontent.com/79111102/189208234-e257eed5-8f1b-45ee-9cb6-1d33c33140f3.png" width=500><br><sub>Alterar</sub>](#) |  [<img src="https://user-images.githubusercontent.com/79111102/189207946-a937bd0f-f6dc-4303-b112-12889af14c2e.png" width=500><br><sub>Usuários registrados</sub>](#) |
+
     
 ---
     
