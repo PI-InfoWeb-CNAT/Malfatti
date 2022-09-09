@@ -114,8 +114,8 @@
 > Estar logado no sistema com uma conta reconhecida como um usuário do tipo Administrador
 <ul>
   <li>Inserir: Atribuir um nome ao fabricante.</li>
-  <li>Alterar: O estúdio deve ser existente no banco de dados.</li>
-  <li>Excluir: O estúdio deve ser existente no banco de dados.</li>
+  <li>Alterar: O fabricante deve ser existente no banco de dados.</li>
+  <li>Excluir: O fabricante deve ser existente no banco de dados.</li>
 </ul>
 
 #### 4 - Pós-condições 
