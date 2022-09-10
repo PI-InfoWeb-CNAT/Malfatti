@@ -337,7 +337,7 @@
     
     1. [IN] O Administrador acessa o endereço da interface de criação dos usuários.
     2. [OUT] O sistema apresenta a interface de criação de usuários. 
-    3. [IN] O Administrador preenche os campos de Username, Email e senha.
+    3. [IN] O Administrador preenche os campos de Nome, Username, Email e senha.
     4. [OUT] O sistema valida as informações e retorna para a interface de listagens dos usuários já registrados.
     
   </li>
@@ -372,7 +372,7 @@
  - Inserir passo 4:
     
     - Nome vazio: Caso o usuário tente inserir um usuário sem Nome, o sistema exibirá uma mensagem de erro informando que o atributo Nome
-    do usuário é obrigatório e retornará ao passo 3.
+    é obrigatório e retornará ao passo 3.
     - Username vazio: Caso o usuário tente inserir um usuário sem Username, o sistema exibirá uma mensagem de erro informando que o atributo Nome
     do usuário é obrigatório e retornará ao passo 3.
     - Email vazio: Caso o usuário tente inserir um usuário sem o campo Email, o sistema exibirá uma mensagem de erro informando que o atributo Email
@@ -390,11 +390,13 @@
   
   - Alterar: 
     
-    - Username vazio: Caso o usuário tente salvar alterações de um produto sem Username, o sistema exibirá uma mensagem de erro informando que o atributo Nome
-    do usuário é obrigatório e retornará ao passo 3.
-    - Email vazio: Caso o usuário tente salvar alterações de um produto sem o campo Email, o sistema exibirá uma mensagem de erro informando que o atributo Email
+    - Nome vazio: Caso o usuário tente salvar alterações de um usuário sem Nome, o sistema exibirá uma mensagem de erro informando que o atributo Nome
     é obrigatório e retornará ao passo 3.
-    - Senha vazia: Caso o usuário tente salvar alterações de um produto sem Senha, o sistema exibirá uma mensagem de erro informando que o atributo 
+    - Username vazio: Caso o usuário tente salvar alterações de um usuário sem Username, o sistema exibirá uma mensagem de erro informando que o atributo Nome
+    do usuário é obrigatório e retornará ao passo 3.
+    - Email vazio: Caso o usuário tente salvar alterações de um usuário sem o campo Email, o sistema exibirá uma mensagem de erro informando que o atributo Email
+    é obrigatório e retornará ao passo 3.
+    - Senha vazia: Caso o usuário tente salvar alterações de um usuário sem Senha, o sistema exibirá uma mensagem de erro informando que o atributo 
     Senha é obrigatório e retornará ao passo 3.
     
     
