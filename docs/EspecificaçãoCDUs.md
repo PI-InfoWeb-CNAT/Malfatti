@@ -314,7 +314,7 @@
 #### 3 - Pré-condições 
 > Estar logado no sistema com uma conta reconhecida como um usuário do tipo Administrador
 <ul>
-  <li>Inserir: Atribuir um Username, Email e Senha de login.</li>
+  <li>Inserir: Atribuir um Nome, Username, Email e Senha de login.</li>
   <li>Alterar: O usuário deve ser existente no banco de dados.</li>
   <li>Excluir: O usuário deve ser existente no banco de dados.</li>
 </ul>
@@ -371,11 +371,13 @@
 
  - Inserir passo 4:
     
-    - Username vazio: Caso o usuário tente inserir um produto sem Username, o sistema exibirá uma mensagem de erro informando que o atributo Nome
+    - Nome vazio: Caso o usuário tente inserir um usuário sem Nome, o sistema exibirá uma mensagem de erro informando que o atributo Nome
     do usuário é obrigatório e retornará ao passo 3.
-    - Email vazio: Caso o usuário tente inserir um produto sem o campo Email, o sistema exibirá uma mensagem de erro informando que o atributo Email
+    - Username vazio: Caso o usuário tente inserir um usuário sem Username, o sistema exibirá uma mensagem de erro informando que o atributo Nome
+    do usuário é obrigatório e retornará ao passo 3.
+    - Email vazio: Caso o usuário tente inserir um usuário sem o campo Email, o sistema exibirá uma mensagem de erro informando que o atributo Email
     é obrigatório e retornará ao passo 3.
-    - Senha vazia: Caso o usuário tente inserir um produto sem Senha, o sistema exibirá uma mensagem de erro informando que o atributo 
+    - Senha vazia: Caso o usuário tente inserir um usuário sem Senha, o sistema exibirá uma mensagem de erro informando que o atributo 
     Senha é obrigatório e retornará ao passo 3.
     
     
