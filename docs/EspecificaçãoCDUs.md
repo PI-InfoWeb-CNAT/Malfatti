@@ -371,7 +371,7 @@
 
  - Inserir passo 4:
     
-    - Username vazio: Caso o usuário tente inserir um produto sem nickname, o sistema exibirá uma mensagem de erro informando que o atributo Nome
+    - Username vazio: Caso o usuário tente inserir um produto sem Username, o sistema exibirá uma mensagem de erro informando que o atributo Nome
     do usuário é obrigatório e retornará ao passo 3.
     - Email vazio: Caso o usuário tente inserir um produto sem o campo Email, o sistema exibirá uma mensagem de erro informando que o atributo Email
     é obrigatório e retornará ao passo 3.
