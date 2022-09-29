@@ -4,11 +4,11 @@
 
 |  Data  | Versão | Descrição | Autor |
 |:-------|:-------|:----------|:------|
-| 08/09/2022 | **1.0.6** | Protótipos | Maria Ricarte |
+| 08/09/2022 | **1.0.5** | Protótipos | Maria Ricarte |
 | 08/09/2022 | **1.0.3** | CDUs Usuário | Maria Ricarte |
 | 07/09/2022 | **1.0.3** | CDUs Produto | Maria Ricarte |
 | 07/09/2022 | **1.0.2** | CDUs Fabricante | Maria Ricarte |
-| 07/09/2022 | **1.0.0** | CDUs Categoria | Maria Ricarte |
+| 06/09/2022 | **1.0.0** | CDUs Categoria | Maria Ricarte |
 
 ### Gerenciamento de categoria
 #### 1 - Resumo
