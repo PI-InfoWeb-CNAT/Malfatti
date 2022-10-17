@@ -1,0 +1,75 @@
+﻿﻿* {
+    font-family: 'Abel', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+body {
+    background-color: rgba(212, 206, 185, 1);
+    margin-top: 1em;
+
+}
+
+body div {
+    background-color: white;
+    min-width: 12cm;
+    max-width: 12cm;
+    min-height: 100%;
+    max-height: 19cm;
+    margin: 0 38%;
+}
+
+header {
+    padding: 1.5em 1.3em 1.3em 1.3em;
+    background-color: #EBEBEB;
+    position: relative;
+
+
+}
+
+li {
+    list-style: none;
+    padding: 2em 5.5em;
+}
+    /*ol:first-child{
+    padding-top: 1.6em;
+}*/
+    li.red {
+        color: red;
+        font-weight: bold;
+    }
+
+input {
+    width: 15em;
+    margin: 0 6%;
+    text-align: center;
+}
+
+footer {
+    padding: 1em 5.5em;
+    background-color: #22CBD6;
+    position: relative;
+}
+    
+footer nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    vertical-align: bottom;
+}
+.form-control{
+    background: white;
+    border-radius: 8px;
+    border: 2px;
+    margin: 10em 15em;
+    padding: 3em;
+}
