@@ -23,5 +23,4 @@ Link do projeto de referência https://github.com/PI-InfoWeb-CNAT/comercioeletro
 
 ### Equipe:
 
-| [<img src="https://avatars.githubusercontent.com/u/24280654?v=4" width=150><br><sub>Alessandro Souza</sub>](https://github.com/alessandrojsouza) |  [<img src="https://avatars.githubusercontent.com/u/79072531?v=4" width=150><br><sub>Erick Farias</sub>](https://github.com/erickfarias05) |  [<img src="https://avatars.githubusercontent.com/u/87080817?v=4" width=150><br><sub>Sérgio Júnior</sub>](https://github.com/JrSergio00) | [<img src="https://avatars.githubusercontent.com/u/77846057?v=4" width=150><br><sub>João Pedro</sub>](https://github.com/JoaoPFranca) | [<img src="https://avatars.githubusercontent.com/u/79152916?v=4" width=150><br><sub>João Lucas</sub>](https://github.com/JoaoLucasVictor1504) | [<img src="https://avatars.githubusercontent.com/u/79101524?v=4" width=150><br><sub>Hélio Filho</sub>](https://github.com/helio-filho99) | [<img src="https://avatars.githubusercontent.com/u/79124601?v=4" width=150><br><sub>Thiago Antone</sub>](https://github.com/Thiaguinho123) | 
 
