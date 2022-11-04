@@ -1,5 +1,7 @@
 # Malfatti
 
+![alt tag](https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/code/Imagens/Malfatti.png)
+
 Desenvolvimento de um site voltado ao comércio de jóias e semi-jóias de diferentes marcas, sejam elas renomadas ou iniciantes no mercado.
 Entre os produtos ofertados, devem estar inclusos: brincos, colares, anéis, pulseiras e suas variações.
 
