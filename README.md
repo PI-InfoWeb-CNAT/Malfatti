@@ -23,9 +23,9 @@ Link do projeto de referência https://github.com/PI-InfoWeb-CNAT/comercioeletro
 
 ### Equipe:
 
-| [<img src="https://avatars.githubusercontent.com/u/947801?s=120&v=4" width=150><br><sub>Leonardo Minora</sub>](https://github.com/leonardo-minora) 
-| [<img src="https://avatars.githubusercontent.com/u/97289630?s=120&v=4" width=150><br><sub>Maria Clara Ricarte</sub>](https://github.com/Maria-Ricarte) 
-| [<img src="https://avatars.githubusercontent.com/u/82954279?s=120&v=4" width=150><br><sub>Laiz Fernanda</sub>](https://github.com/laiz234) 
+| [<img src="https://avatars.githubusercontent.com/u/947801?s=120&v=4" width=150><br><sub>Leonardo Minora</sub>](https://github.com/leonardo-minora)
+| [<img src="https://avatars.githubusercontent.com/u/97289630?s=120&v=4" width=150><br><sub>Maria Clara Ricarte</sub>](https://github.com/Maria-Ricarte)
+| [<img src="https://avatars.githubusercontent.com/u/82954279?s=120&v=4" width=150><br><sub>Laiz Fernanda</sub>](https://github.com/laiz234)
 | [<img src="https://avatars.githubusercontent.com/u/79118143?s=120&v=4" width=150><br><sub>Jainne Agatha</sub>](https://github.com/jainneagatha) 
-| [<img src="https://avatars.githubusercontent.com/u/79123176?s=120&v=4" width=150><br><sub>Leticia Maia</sub>](https://github.com/leticiamaiaa) 
+| [<img src="https://avatars.githubusercontent.com/u/79123176?s=120&v=4" width=150><br><sub>Leticia Maia</sub>](https://github.com/leticiamaiaa)
 | [<img src="https://avatars.githubusercontent.com/u/79114498?s=120&v=4" width=150><br><sub>Winnie Almeida</sub>](https://github.com/winniealmeida)|| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
