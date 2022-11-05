@@ -29,3 +29,4 @@ Link do projeto de referência https://github.com/PI-InfoWeb-CNAT/comercioeletro
 | [<img src="https://avatars.githubusercontent.com/u/79118143?s=120&v=4" width=150><br><sub>Jainne Agatha</sub>](https://github.com/jainneagatha) 
 | [<img src="https://avatars.githubusercontent.com/u/79123176?s=120&v=4" width=150><br><sub>Leticia Maia</sub>](https://github.com/leticiamaiaa) 
 | [<img src="https://avatars.githubusercontent.com/u/79114498?s=120&v=4" width=150><br><sub>Winnie Almeida</sub>](https://github.com/winniealmeida)
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
