@@ -4,7 +4,8 @@
 
 |  Data  | Versão | Descrição | Autor |
 |:-------|:-------|:----------|:------|
-| 10/11/2022 | **1.0.0** | CDUs Cancelar Pedido | Jainne Agatha |
+| 10/11/2022 | **1.0.0** | Protótipos | Jainne Agatha |
+| 10/11/2022 | **1.0.1** | CDUs Cancelar Pedido | Jainne Agatha |
 
 ### Gerenciamento de categoria
 #### 1 - Resumo
@@ -58,8 +59,9 @@
 </ul>
 
 #### 6 - Protótipos de interface 
-  
-
+| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Pedidos%20clnt.png" width=500><br><sub>Excluir</sub>](#) |  
+ [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Excluir%20pedido%20clnt.png" width=500><br><sub>Listagem visualização e exclusão</sub>](#) | 
+| :---: | :---: |  
 
 --- 
  
