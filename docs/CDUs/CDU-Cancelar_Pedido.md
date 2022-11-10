@@ -30,14 +30,7 @@
 ##### 5.1 - Fluxo básico 
 
 <ul>
-  <li>
-    Inserir:&nbsp;
-    
-    1. [IN] O usuário acessa o endereço da interface meus pedidos.
-    2. [OUT] O sistema apresenta a interface meus pedidos. 
-    3. [IN] O usuário preenche o campo de nome.
-    4. [OUT] O sistema valida as informações e retorna para a interface de listagens das categorias já registradas.
-
+ 
   <li>Excluir:  &nbsp;
     
     1. [IN] O usuário acessa a interface de excluir pedido.
