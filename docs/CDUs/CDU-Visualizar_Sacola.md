@@ -8,7 +8,7 @@
 
 ###  Visualizar Carrinho
 #### 1 - Resumo
-> Possibilita que o usuário - do tipo Cliente - realize a visualização do pedido, e a sessão de compras, compreendendo os métodos Editar e Remover.
+> Possibilita que o usuário - do tipo Cliente - realize a visualização dos itens, e a sessão de compras, compreendendo os métodos Editar e Remover item.
 
 #### 2 - Atores
 >  Usuário
