@@ -4,7 +4,7 @@
 
 |  Data  | Versão | Descrição | Autor |
 |:-------|:-------|:----------|:------|
-| 06/11/2022 | **1.0.0** | CDUs Categoria | Jainne Agatha |
+| 06/11/2022 | **1.0.0** | CDUs Cancelar Pedido | Jainne Agatha |
 
 ### Gerenciamento de categoria
 #### 1 - Resumo
