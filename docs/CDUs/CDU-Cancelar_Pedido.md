@@ -59,7 +59,7 @@
 </ul>
 
 #### 6 - Protótipos de interface 
-| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Pedidos%20clnt.png" width=500><br><sub>Excluir</sub>](#) |  
+| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Pedidos%20clnt.png" width=500><br><sub>Pedidos</sub>](#) |  
  [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Excluir%20pedido%20clnt.png" width=500><br><sub>Listagem visualização e exclusão</sub>](#) | 
 | :---: | :---: |  
 
