@@ -5,6 +5,7 @@
 |  Data  | Versão | Descrição | Autor |
 |:-------|:-------|:----------|:------|
 | 10/11/2022 | **1.0.1** | CDUs Visualizar Carrinho | Laiz Fernanda |
+| 10/11/2022 | **1.0.1** | Diagrama de classes de Visualizar Carrinho | Laiz Fernanda |
 
 ###  Visualizar Carrinho
 #### 1 - Resumo
@@ -58,7 +59,9 @@
   </li>
 </ul>
 
-#### 6 - Protótipos de interface e diagrama de classes
+#### 6 - Protótipos de interface
 
 <img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Sacola.png" width=500><br>
+
+#### 7 - Diagrama de classes
 <img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Diagrama%20visualizar%20carrinho.png" width=500><br>
