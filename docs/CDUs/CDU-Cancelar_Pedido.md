@@ -53,7 +53,7 @@
   <li>Excluir passo 4 - Pedido a caminho: 
     
     Caso o usuário tente excluir um pedido que já esteja a caminho, o sistema apresentará uma mensagem de 
-    erro informando a impossibilidade de exclusão daquele determinado pedido e retornará ao passo 3.
+    erro informando a impossibilidade do cancelamenro daquele determinado pedido e retornará ao passo 3.
     
   </li>
 </ul>
