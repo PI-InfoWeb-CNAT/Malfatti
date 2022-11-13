@@ -102,4 +102,5 @@
 
 #### 6 - Protótipos de interface
 
-| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Sacola.png" width=500><br><sub>Carrinho</sub>](#) | [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/code/Malfitti%20prototipos/Tela%20de%20Pagamento.png" width=500><br><sub>Tela de Pagamento</sub>](#) | 
+| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Sacola.png" width=500><br><sub>Carrinho</sub>](#) 
+| [<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/code/Malfitti%20prototipos/Tela%20de%20Pagamento.png" width=500><br><sub>Tela de Pagamento</sub>](#) | 
