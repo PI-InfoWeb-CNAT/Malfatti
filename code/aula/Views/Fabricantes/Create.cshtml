@@ -1,42 +1,34 @@
 ﻿@model malfatti.Models.Fabricante
 
-@{
-    Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.Title = "Registrando um NOVO FABRICANTE";
-}
-@using (Html.BeginForm())
-{
-    @Html.AntiForgeryToken()
-    <div class="panel panel-primary">
-        <div class="panel-heading">
-            Registro de um NOVO FABRICANTE
-        </div>
-        <div class="panel-body">
-            <div class="form-horizontal">
-                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-                <div class="form-group">
-                    @Html.LabelFor(model => model.Nome, htmlAttributes: new {@class = "control-label col-md-1"})
-                    <div class="col-md-5">
-                        @Html.EditorFor(model => model.Nome, new {htmlAttributes =new { @class = "form-control" }})
-                        @Html.ValidationMessageFor(model => model.Nome, "", new { @class = "text-danger" })
-                    </div>
-                </div>
-            </div>
-        </div>
-<div class="panel-footer panel-info">
-<div class="col-md-offset-2 col-md-9">
-<input type="submit" value="Adicionar Fabricante" class="btn btn-danger" />
-@Html.ActionLink("Retornar para a listagem de FABRICANTES", "Index", null,
-new { @class = "btn btn-warning" })
-</div>
-<br />
-<br />
-</div>
-</div>
-}
-@section ScriptPage {
-<script src="~/Scripts/jquery.validate.min.js">
-</script>
-<script src="~/Scripts/jquery.validate.unobtrusive.min.js">
-</script>
-}
+@{ Layout = null; }
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/App_Themes/Padrao/PadraoFabricantes.css" />
+    <link rel="stylesheet" type="text/css" href="padrao2.css" />
+    <title>Malfatti</title>
+</head>
+<body>
+    <header>
+        <h1>Registro de um NOVO FABRICANTE</h1>
+    </header>
+
+    <main>
+        @using (Html.BeginForm("Create", "Fabricantes", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+        <section>
+            <h2>Nome:</h2>
+            @Html.TextBoxFor(f => f.Nome, new { placeholder = "", @class = "form-input" })
+
+            <input type="submit" value="Adicionar Fabricante" />
+
+            @Html.ActionLink("Retornar para a listagem de FABRICANTES", "Index", null,
+ new { @class = "btn btn-warning" })
+        </section>}
+    </main>
+</body>
+</html>

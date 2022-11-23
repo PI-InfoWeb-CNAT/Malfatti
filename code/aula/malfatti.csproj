@@ -95,7 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Themes\Padrao\PadraoProduto.css" />
-    <Content Include="App_Themes\Padrao\PadraoFabricante.css" />
+    <Content Include="App_Themes\Padrao\PadraoFabricantes.css" />
     <Content Include="App_Themes\Tema1\Home.css" />
     <Content Include="App_Themes\Tema1\Usuariocreate.css" />
     <Content Include="App_Themes\Tema1\Usuariodelete.css" />

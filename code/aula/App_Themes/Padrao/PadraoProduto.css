@@ -1,6 +1,4 @@
-﻿s (65 sloc) 1.27 KB
-
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 * {
     padding: 0;
@@ -41,10 +39,6 @@ input {
     margin: 0.5em;
 }
 
-    input .check {
-        height: 3em;
-        width: 3em;
-    }
 
 .button {
     color: #000000;
