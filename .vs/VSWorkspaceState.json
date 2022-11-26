@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\code",
+    "\\code\\aula",
+    "\\code\\aula\\Controllers"
   ],
-  "SelectedNode": "\\malfatti.sln",
+  "SelectedNode": "\\code\\aula\\Controllers\\CategoriasController.cs",
   "PreviewInSolutionExplorer": false
 }
