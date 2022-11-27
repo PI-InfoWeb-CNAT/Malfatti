@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using aula.Models;
+using malfatti.Models;
 using malfatti.Context;
 
-namespace aula.Controllers
+namespace malfatti.Controllers
 {
     public class CarrinhosController : Controller
     {

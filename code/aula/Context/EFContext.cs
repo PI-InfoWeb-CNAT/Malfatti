@@ -4,7 +4,6 @@ using System.Linq;
 using System.Web;
 using malfatti.Models;
 using System.Data.Entity;
-using aula.Models;
 
 namespace malfatti.Context
 {

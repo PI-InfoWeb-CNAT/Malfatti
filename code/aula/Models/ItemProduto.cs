@@ -5,7 +5,7 @@ using System.Linq;
 using System.Web;
 using malfatti.Models;
 
-namespace aula.Models
+namespace malfatti.Models
 {
     public class ItemProduto
     {
