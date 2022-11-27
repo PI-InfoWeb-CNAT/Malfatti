@@ -13,7 +13,7 @@ namespace aula.Models
         public int PedidoId { get; set; }
         public int UsuarioID { get; set; }
         public DateTime DtPedido { get; set; }
-        
+
         //public StatusPedido StatusPedido { get; set; } // StatusPedido seria um Enum
 
         public DateTime DtPagamento { get; set; }

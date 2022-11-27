@@ -16,13 +16,13 @@ namespace malfatti.Controllers
         //GET: Produtos
         public ActionResult Index()
         {
-            List<Produto> lista = context.Produtos.ToList();
-            ViewBag.MeusProdutos = lista;
+            var produtos = context.Produtos.Include(c => c.Categoria).Include(f => f.Fabricante).
+            OrderBy(n => n.Nome);
+            return View(produtos);
+        }
 
-            return View(lista);
-
-            // GET: Produtos/Details/5
-            public ActionResult Details(long? id)
+        // GET: Produtos/Details/5
+        public ActionResult Details(long? id)
         {
             if (id == null)
             {
@@ -138,5 +138,3 @@ namespace malfatti.Controllers
         }
     }
 }
-    }
-

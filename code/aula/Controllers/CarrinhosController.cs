@@ -8,7 +8,7 @@ using malfatti.Context;
 
 namespace aula.Controllers
 {
-    public class CarrinhoController : Controller
+    public class CarrinhosController : Controller
     {
         private EFContext context = new EFContext();
         // GET: Carrinho

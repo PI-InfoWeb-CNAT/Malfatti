@@ -11,7 +11,7 @@ namespace malfatti.Models
     {
         public long ProdutoId { get; set; }
         public string Nome { get; set; }
-        [Range(1,Double.PositiveInfinity)]
+        [Range(1, Double.PositiveInfinity)]
         public Decimal Preco { get; set; }
         public String Descricao { get; set; }
         public bool Disponivel { get; set; }
@@ -19,7 +19,7 @@ namespace malfatti.Models
         public long? FabricanteId { get; set; }
         public Categoria Categoria { get; set; }
         public Fabricante Fabricante { get; set; }
-        
+
 
         public virtual ICollection<ItemProduto> ItensProduto { get; set; }
 

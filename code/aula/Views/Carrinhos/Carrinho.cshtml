@@ -1,0 +1,20 @@
+﻿@model Pedido
+
+@{
+    ViewBag.Title = "Carrinho";
+}
+
+<h2>Carrinho</h2>
+
+@foreach (var item in Model)
+{
+    <li>
+        @item.ProdutoId - @item.Produto.Descricao
+
+        <input type="text" value="@item.Qtd" readonly="readonly" />
+        <input type="submit" value="alterar" />
+        @Html.ActionLink("Remover", "Remover", "Shop", new { id = item.ProdutoId }, null)
+    </li>
+}
+
+@Html.ActionLink("Retornar", "Descrição", "Shop")
