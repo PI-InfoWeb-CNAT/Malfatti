@@ -1,5 +1,4 @@
 ﻿@model malfatti.Models.Pedido
-
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Carrinho";
@@ -7,7 +6,7 @@
 
 <h2>Carrinho</h2>
 
-@foreach(var item in Model)
+@foreach (var item in Model.ItensProduto)
 {
     <li>
         @item.ProdutoId - @item.Produto.Descricao
