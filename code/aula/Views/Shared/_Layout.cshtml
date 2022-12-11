@@ -39,13 +39,13 @@
                 <ul class="nav nav-pills nav-stacked">
                     <li id="liHome" role="presentation" class="active"><a href="#">Home</a></li>
                     <li id="liCategorias" role="presentation">
-                        @Html.ActionLink("Categorias", "Index", "Categorias")
+                        @Html.ActionLink("Categorias", "Index", "Categorias", new { Area = "Tabelas" }, null)
                     </li>
                     <li id="liFabricantes" role="presentation">
-                        @Html.ActionLink("Fabricantes", "Index", "Fabricantes")
+                        @Html.ActionLink("Fabricantes", "Index", "Fabricantes", new { Area = "Cadastros" }, null)
                     </li>
                     <li id="liProdutos" role="presentation">
-                        @Html.ActionLink("Produtos", "Index", "Produto")
+                        @Html.ActionLink("Produtos", "Index","Produtos", new { Area = "Tabelas" }, null)
                     </li>
                     <li id="liUsuarios" role="presentation">
                         @Html.ActionLink("Usuarios", "Index", "Usuario")
@@ -53,6 +53,7 @@
                     <li id="liCarrinhos" role="presentation">
                         @Html.ActionLink("Carrinhos", "Carrinho", "Carrinho")
                     </li>
+
                 </ul>
             </div>
             <div class="col-xs-9 col-md-9">

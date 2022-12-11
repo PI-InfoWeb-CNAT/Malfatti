@@ -3,8 +3,10 @@
     "",
     "\\code",
     "\\code\\aula",
-    "\\code\\aula\\Controllers"
+    "\\code\\aula\\Controllers",
+    "\\code\\aula\\Views",
+    "\\code\\aula\\Views\\Carrinhos"
   ],
-  "SelectedNode": "\\code\\aula\\Global.asax.cs",
+  "SelectedNode": "\\code\\aula\\Views\\Carrinhos",
   "PreviewInSolutionExplorer": false
 }
