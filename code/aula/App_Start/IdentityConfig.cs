@@ -4,6 +4,7 @@ using Microsoft.Owin.Security.Cookies;
 using Owin;
 using malfatti.DAL;
 using malfatti.Infraestrutura;
+
 namespace malfatti
 {
     public class IdentityConfig

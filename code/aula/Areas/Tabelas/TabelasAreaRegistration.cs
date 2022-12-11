@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace aula.Areas.Tabelas
+namespace malfatti.Areas.Tabelas
 {
     public class TabelasAreaRegistration : AreaRegistration 
     {

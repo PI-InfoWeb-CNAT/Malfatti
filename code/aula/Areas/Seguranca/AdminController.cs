@@ -2,6 +2,10 @@
 using malfatti.Infraestrutura;
 using System.Web.Mvc;
 using System.Web;
+using Microsoft.AspNet.Identity;
+using malfatti.Areas.Seguranca.Models;
+using malfatti;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace malfatti.Areas.Seguranca.Controllers
 {
