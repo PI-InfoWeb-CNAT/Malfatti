@@ -3,10 +3,11 @@
     "",
     "\\code",
     "\\code\\aula",
-    "\\code\\aula\\Controllers",
-    "\\code\\aula\\Views",
-    "\\code\\aula\\Views\\Carrinhos"
+    "\\code\\aula\\Areas",
+    "\\code\\aula\\Areas\\Seguranca",
+    "\\code\\aula\\Areas\\Seguranca\\Views",
+    "\\code\\aula\\Areas\\Seguranca\\Views\\Admin"
   ],
-  "SelectedNode": "\\code\\aula\\Views\\Carrinhos",
+  "SelectedNode": "\\code\\aula\\Areas\\Seguranca\\Views\\Admin\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

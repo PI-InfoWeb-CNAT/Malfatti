@@ -32,5 +32,7 @@ namespace malfatti.Context
         {
             throw new NotImplementedException();
         }
+
+        public System.Data.Entity.DbSet<malfatti.Areas.Seguranca.Models.UsuarioViewModel> UsuarioViewModels { get; set; }
     }
 }
