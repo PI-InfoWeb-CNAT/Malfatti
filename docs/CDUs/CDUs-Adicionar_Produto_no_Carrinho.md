@@ -36,6 +36,10 @@
   </li>
 </ul> 
 
+##### 5.2 - Fluxo Alternativo
+
+> Inexistente
+
 #### 6 - Protótipos de interface
 
 <img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Sacola.png" width=500><br>
