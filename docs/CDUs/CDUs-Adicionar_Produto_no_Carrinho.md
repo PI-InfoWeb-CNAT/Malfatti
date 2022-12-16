@@ -4,7 +4,8 @@
 
 |  Data  | Versão | Descrição | Autor |
 |:-------|:-------|:----------|:------|
-| 10/11/2022 | **1.0.1** | CDUs Adicionar Produto no Carrinho | Letícia Maia |
+| 16/12/2022 | **1.0.2** | CDUs Adicionar Produto no Carrinho | Maria Ricarte |
+| 16/12/2022 | **1.0.1** | CDUs Adicionar Produto no Carrinho | Letícia Maia |
 
 ###  Adicionar Produto no Carrinho
 #### 1 - Resumo
