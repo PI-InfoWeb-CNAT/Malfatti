@@ -200,6 +200,13 @@
     <Content Include="App_Themes\Tema1\Usuariocreate.css" />
     <Content Include="App_Themes\Tema1\Usuariodelete.css" />
     <Content Include="App_Themes\Tema1\Usuarioedit.css" />
+    <Content Include="App_Themes\Tema2\Fabricantedelete.css" />
+    <Content Include="App_Themes\Tema2\Fabricantedetails.css" />
+    <Content Include="App_Themes\Tema2\Fabricanteedit.css" />
+    <Content Include="App_Themes\Tema3\Categoriacreate.css" />
+    <Content Include="App_Themes\Tema3\Categoriadelete.css" />
+    <Content Include="App_Themes\Tema3\Categoriadetails.css" />
+    <Content Include="App_Themes\Tema3\Categoriaedit.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
