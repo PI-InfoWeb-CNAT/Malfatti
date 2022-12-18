@@ -8,7 +8,7 @@ using System.Data.Entity;
 using System.Net;
 using malfatti.Context;
 
-namespace malfatti.Areas.Controllers
+namespace malfatti.Areas.Cadastros.Controllers
 {
     public class ProdutoController : Controller
     {

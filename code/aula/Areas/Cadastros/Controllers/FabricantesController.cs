@@ -8,7 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using malfatti.Context;
 
-namespace malfatti.Areas.Controllers
+namespace malfatti.Areas.Cadastros.Controllers
 {
     public class FabricantesController : Controller
     {

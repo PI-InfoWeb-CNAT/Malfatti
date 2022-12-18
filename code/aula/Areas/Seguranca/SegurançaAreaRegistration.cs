@@ -1,22 +1,22 @@
 ﻿using System.Web.Mvc;
 
-namespace malfatti.Areas.Seguranca
+namespace malfatti.Areas.Segurança
 {
-    public class SegurancaAreaRegistration : AreaRegistration 
+    public class SegurançaAreaRegistration : AreaRegistration 
     {
         public override string AreaName 
         {
             get 
             {
-                return "Seguranca";
+                return "Segurança";
             }
         }
 
         public override void RegisterArea(AreaRegistrationContext context) 
         {
             context.MapRoute(
-                "Seguranca_default",
-                "Seguranca/{controller}/{action}/{id}",
+                "Segurança_default",
+                "Segurança/{controller}/{action}/{id}",
                 new { action = "Index", id = UrlParameter.Optional }
             );
         }

@@ -6,8 +6,10 @@
     "\\code\\aula\\Areas",
     "\\code\\aula\\Areas\\Seguranca",
     "\\code\\aula\\Areas\\Seguranca\\Views",
-    "\\code\\aula\\Areas\\Seguranca\\Views\\Admin"
+    "\\code\\aula\\Areas\\Seguranca\\Views\\Admin",
+    "\\code\\aula\\Areas\\Seguranca\\Views\\PapelAdmin",
+    "\\code\\aula\\Views"
   ],
-  "SelectedNode": "\\code\\aula\\Areas\\Seguranca\\Views\\Admin\\Index.cshtml",
+  "SelectedNode": "\\code\\aula\\Areas\\Seguranca\\Views\\PapelAdmin\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

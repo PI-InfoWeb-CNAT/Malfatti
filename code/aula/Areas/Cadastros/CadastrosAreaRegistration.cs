@@ -1,22 +1,22 @@
 ﻿using System.Web.Mvc;
 
-namespace aula.Areas.Cadastro
+namespace malfatti.Areas.Cadastros
 {
-    public class CadastroAreaRegistration : AreaRegistration 
+    public class CadastrosAreaRegistration : AreaRegistration 
     {
         public override string AreaName 
         {
             get 
             {
-                return "Cadastro";
+                return "Cadastros";
             }
         }
 
         public override void RegisterArea(AreaRegistrationContext context) 
         {
             context.MapRoute(
-                "Cadastro_default",
-                "Cadastro/{controller}/{action}/{id}",
+                "Cadastros_default",
+                "Cadastros/{controller}/{action}/{id}",
                 new { action = "Index", id = UrlParameter.Optional }
             );
         }

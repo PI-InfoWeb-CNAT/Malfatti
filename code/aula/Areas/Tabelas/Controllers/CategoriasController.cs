@@ -8,7 +8,7 @@ using System.Web;
 using malfatti.Context;
 using System.Web.Mvc;
 
-namespace malfatti.Areas.Controllers
+namespace malfatti.Areas.Tabelas.Controllers
 {
     public class CategoriasController : Controller
     {
