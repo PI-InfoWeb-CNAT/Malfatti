@@ -1,15 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\code",
-    "\\code\\aula",
-    "\\code\\aula\\Areas",
-    "\\code\\aula\\Areas\\Seguranca",
-    "\\code\\aula\\Areas\\Seguranca\\Views",
-    "\\code\\aula\\Areas\\Seguranca\\Views\\Admin",
-    "\\code\\aula\\Areas\\Seguranca\\Views\\PapelAdmin",
-    "\\code\\aula\\Views"
+    "\\code"
   ],
-  "SelectedNode": "\\code\\aula\\Areas\\Seguranca\\Views\\PapelAdmin\\Index.cshtml",
+  "SelectedNode": "\\code\\malfatti.sln",
   "PreviewInSolutionExplorer": false
 }
