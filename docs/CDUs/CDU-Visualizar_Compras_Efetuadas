@@ -1,0 +1,56 @@
+# Especificação de casos de uso 
+
+## Comércio Eletrônico
+
+|  Data  | Versão | Descrição | Autor |
+|:-------|:-------|:----------|:------|
+| 13/12/2022 | **1.0.1** | CDUs Visualizar Compras Efetuadas | Winnie Almeida |
+| 13/12/2022 | **1.0.1** | Diagrama de classes de Visualizar Compras Efetuadas | Winnie Almeida |
+
+###  Visualizar Compras Efetuadas
+#### 1 - Resumo
+> Possibilita que o usuário - do tipo Cliente - realize a visualização dos itens já comprados.
+
+#### 2 - Atores
+>  Usuário
+
+#### 3 - Pré-condição
+> Estar logado no sistema com uma conta reconhecida como um usuário do tipo Cliente
+> Ter realizado alguma compra
+
+#### 4-- Pós-condição
+<ul>
+  <li>Ele tem acesso à lista de compras realizadas e às informações principais de cada uma.</li>
+</ul>
+
+#### 5 - Fluxos de evento
+
+##### 5.1 - Fluxo Principal
+
+<ul>
+  <li>
+    
+    1. [IN] O usuário acessa sua conta.
+    2. [IN] O usuário acessa a página de visualização.
+    3. [OUT] O sistema direciona para a lista de compras.
+    
+  </li>
+</ul> 
+<h5> 5.2 - Fluxo Alternativo </h5>
+
+<ul>
+  <li>
+    
+    1. [IN] O usuário finaliza uma compra.
+    2. [IN] Acessa a opção de visualizar lista de compras.
+    3. [OUT] O sistema direciona para a lista de compras.
+    
+  </li>
+</ul>  
+
+#### 6 - Protótipos de interface
+
+<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Compras%20efetuadas%20cliente.png?raw=true" width=500><br>
+
+#### 7 - Diagrama de classes
+<img src="https://github.com/PI-InfoWeb-CNAT/Malfatti/blob/main/docs/Fotos%20do%20cdus/Diagrama%20visualizar%20carrinho.png" width=500><br>
