@@ -1,0 +1,45 @@
+﻿@model malfatti.Models.Produto
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/App_Themes/Padrao/PadraoProduto.css" />
+    <link rel="stylesheet" type="text/css" href="padrao.css" />
+    <title>Malfatti</title>
+</head>
+<body>
+    <header>
+        <h1>Visualizando os dados de um PRODUTO</h1>
+    </header>
+    <main>
+        @using (Html.BeginForm("Details", "Produto", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            <section>
+                <h2>Nome:</h2>
+                @Html.TextBoxFor(f => f.Nome, new { placeholder = "", @class = "form-input" })
+
+                <h2>Preço:</h2>
+                @Html.TextBoxFor(f => f.Preco, new { placeholder = "", @class = "form-input" })
+
+                <h2>Descriçaõ:</h2>
+                @Html.TextBoxFor(f => f.Descricao, new { placeholder = "", @class = "form-input" })
+
+                <h2>Disponível:</h2>
+                <input class="check" type="checkbox">
+
+                <h2>Categoria:</h2>
+                @Html.TextBoxFor(f => f.CategoriaId, new { placeholder = "", @class = "form-input" })
+
+                <h2>Fabricante:</h2>
+                @Html.TextBoxFor(f => f.FabricanteId, new { placeholder = "", @class = "form-input" })
+
+                @Html.ActionLink("Alterar", "Edit", new { id = Model.ProdutoId }, new { @class = "btn btn-info" })
+                @Html.ActionLink("Retornar para a listagem", "Index", null, new { @class = "btn btn-info" })
+            </section>}
+    </main>
+</body>
+</html>
