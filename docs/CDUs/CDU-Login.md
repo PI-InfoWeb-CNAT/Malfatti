@@ -28,7 +28,6 @@
 
 <ul>
   <li>
-    Inserir:&nbsp;
     1. [IN] O usuário acessa a interface para logar.
     2. [OUT] O sistema exibe a página com os formulários requeridos.
     3. [IN] O usuário preenche os campos, com as informações uma vez já cadastradas.
@@ -43,7 +42,6 @@
 ##### 5.3 - Fluxo de Excessão
 <ul>
   <li>
-    Inserir:&nbsp;
     1. [IN] O usuário acessa a interface para logar.
     2. [OUT] O sistema exibe a página com os formulários requeridos.
     3. [IN] O usuário preenche os campos, com as informações uma vez já cadastradas.
