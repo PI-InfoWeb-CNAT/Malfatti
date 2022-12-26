@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <link rel="shortcut icon" href="~/Imagens/logo-malfatti.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="~/App_Themes/Tema1/Menu.css" />
+    @RenderSection("styles", false)
+    <style>
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="~/Imagens/logo.png" alt="logo">
+        <nav>
+            <ul>
+                <li>
+                    @Html.ActionLink("Página Inicial", "Index", "Home")
+            </li>
+            <li>
+                @Html.ActionLink("Categorias", "Index", "Categorias")
+            </li>
+            <li>
+                @Html.ActionLink("Fabricantes", "Index", "Fabricantes")
+            </li>
+            <li>
+                @Html.ActionLink("Produtos", "Index", "Produto")
+            </li>
+        </ul>
+        @Html.Partial("_LoginPartial")
+    </nav>
+</header>
+<div>
+    <br />
+    @RenderBody()
+</div>
+<script src="@Url.Content("~/Scripts/jquery.validate.js")"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.js")"></script>
+<script src="@Url.Content("~/scripts/jquery-1.10.2.js")"></script>
+<script src="@Url.Content("~/scripts/bootstrap.js")"></script>
+@RenderSection("ScriptPage", false);
+</body>
+</html>
