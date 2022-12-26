@@ -55,10 +55,10 @@
                             @Html.DisplayFor(modelItem => item.Descricao)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Categoria)
+                            @Html.DisplayFor(modelItem => item.Categoria.Nome)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Fabricante)
+                            @Html.DisplayFor(modelItem => item.Fabricante.Nome)
                         </td>
                         <td>
                             @Html.ActionLink("Alterar", "Edit", new { id = item.ProdutoId })
