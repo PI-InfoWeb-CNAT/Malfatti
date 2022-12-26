@@ -27,12 +27,10 @@
 ##### 5.1 - Fluxo Principal
 
 <ul>
-  <li>
-    1. [IN] O usuário acessa a interface para logar.
-    2. [OUT] O sistema exibe a página com os formulários requeridos.
-    3. [IN] O usuário preenche os campos, com as informações uma vez já cadastradas.
-    4. [OUT] O sistema valida as informações e exibe.
-  </li>
+    <li>1. [IN] O usuário acessa a interface para logar.</li>
+    <li>2. [OUT] O sistema exibe a página com os formulários requeridos.</li>
+    <li>3. [IN] O usuário preenche os campos, com as informações uma vez já cadastradas.</li>
+    <li>4. [OUT] O sistema valida as informações e exibe.</li>
 </ul> 
 
 ##### 5.2 - Fluxo Alternativo
@@ -41,12 +39,10 @@
 > 
 ##### 5.3 - Fluxo de Excessão
 <ul>
-  <li>
-    1. [IN] O usuário acessa a interface para logar.
-    2. [OUT] O sistema exibe a página com os formulários requeridos.
-    3. [IN] O usuário preenche os campos, com as informações uma vez já cadastradas.
-    4. [OUT] O sistema invalida as informações e exibe uma mensagem de erro, voltando ao passo 3.
-  </li>
+    <li>1. [IN] O usuário acessa a interface para logar.</li>
+    <li>2. [OUT] O sistema exibe a página com os formulários requeridos.</li>
+    <li>3. [IN] O usuário preenche os campos, com as informações uma vez já cadastradas.</li>
+    <li>4. [OUT] O sistema invalida as informações e exibe uma mensagem de erro, voltando ao passo 3.</li>
 </ul> 
 
 #### 6 - Protótipos de interface
