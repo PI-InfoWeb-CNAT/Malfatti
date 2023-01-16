@@ -407,6 +407,9 @@
     <Compile Include="Areas\Seguranca\Models\Usuario.cs" />
     <Compile Include="Areas\Seguranca\SegurançaAreaRegistration.cs" />
     <Compile Include="Areas\Tabelas\TabelasAreaRegistration.cs" />
+    <Compile Include="Carrinho\ShoppingCartItem.cs" />
+    <Compile Include="Cart\Order.cs" />
+    <Compile Include="Cart\OrderDetails.cs" />
     <Compile Include="Context\EFContext.cs" />
     <Compile Include="Controllers\CarrinhosController.cs" />
     <Compile Include="Areas\Tabelas\Controllers\CategoriasController.cs" />
@@ -427,6 +430,7 @@
     <Compile Include="Models\Produto.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sistema\Cart.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
