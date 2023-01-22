@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using Modelo.Cart;
+using Models.Cart;
 namespace malfatti.Models.ViewModels
 {
     public class OrderVM
