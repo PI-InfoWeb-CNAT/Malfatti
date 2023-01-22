@@ -18,7 +18,7 @@ namespace malfatti.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Produto produto = produtoServico.ObterProdutoPorId((long?)id);
+            Produto produto = produto.ObterProdutoPorId((long?)id);
             if (produto == null)
             {
                 return HttpNotFound();
@@ -27,11 +27,11 @@ namespace malfatti.Controllers
         }
 
         private EFContext cadcontext = new EFContext();
-        private ProdutoServico produtoServico = new ProdutoServico();
+        private Produto produto = new Produto();
         public ActionResult Index()
         {
            Shop shop = new Shop();
-            shop.listaprodutos = produtoServico.ObterProdutosClassificadosPorNome();
+            shop.listaprodutos = produto.ObterProdutosClassificadosPorNome();
             return View(shop);
         }
 
