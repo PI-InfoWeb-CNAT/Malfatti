@@ -15,28 +15,46 @@ namespace malfatti.Controllers
 
     public class ProdutoController : Controller
     {
-        private ProdutoServico produtoServico = new ProdutoServico();
-        private CategoriaServico categoriaServico = new CategoriaServico();
-        private FabricanteServico fabricanteServico = new FabricanteServico();
-        private string strFileName;
+        
+        private ProdutoServico produto = new Produto();
+        private CategoriaServico categoria = new Categoria();
+        private EstudioServico fabricante = new Estudio();
 
-        private EFContext context = new EFContext();
-        //GET: Produtos
-        public ActionResult Index()
+        //Pega os detalhes do produto de acordo com o id, serve para diminuir a redundância na hora de mostrar vz
+        private ActionResult ObterVisaoProdutoPorId(long? id)
         {
-            var produtos = context.Produtos.Include(c => c.Categoria).Include(f => f.Fabricante).
-            OrderBy(n => n.Nome);
-            return View(produtos);
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Produto produto = produto.ObterProdutoPorId((long?)id);
+            if (produto == null)
+            {
+                return HttpNotFound();
+            }
+            return View(produto);
+        }
+        // Serve para popular combobox
+        private void PopularViewBag(Produto produto = null)
+        {
+            if (produto == null)
+            {
+                ViewBag.CategoriaId = new SelectList(categoria.ObterCategoriasClassificadasPorNome(),
+                "CategoriaId", "Nome");
+                ViewBag.FabricanteId = new SelectList(fabricante.ObterEstudiosClassificadosPorNome(),
+                "EstudioId", "Nome");
+            }
+            else
+            {
+                ViewBag.CategoriaId = new SelectList(categoria.ObterCategoriasClassificadasPorNome(),
+                "CategoriaId", "Nome", produto.CategoriaId);
+                ViewBag.FabricanteId = new SelectList(fabricante.ObterEstudiosClassificadosPorNome(),
+                "EstudioId", "Nome", produto.EstudioId);
+            }
         }
 
-        private byte[] SetLogotipo(HttpPostedFileBase logotipo)
-        {
-            var bytesLogotipo = new byte[logotipo.ContentLength];
-            logotipo.InputStream.Read(bytesLogotipo, 0, logotipo.ContentLength);
-            return bytesLogotipo;
-        }
-
-        private ActionResult GravarProduto(Produto produto, HttpPostedFileBase logotipo, string chkRemoverImagem)
+        // Salva os produtos
+        private ActionResult GravarProduto(Produto produto, HttpPostedFileBase upimg, string chkRemoverImagem)
         {
             try
             {
@@ -44,19 +62,25 @@ namespace malfatti.Controllers
                 {
                     if (chkRemoverImagem != null)
                     {
-                        produto.Logotipo = null;
+                        produto.UpImg = null;
                     }
-                    if (logotipo != null)
+                    if (upimg != null)
                     {
-                        produto.LogotipoMimeType = logotipo.ContentType;
-                        produto.Logotipo = SetLogotipo(logotipo);
-                        produto.NomeArquivo = logotipo.FileName;
-                        produto.TamanhoArquivo = logotipo.ContentLength;
-                        strFileName = Server.MapPath("~/App_Data/") + Path.GetFileName(logotipo.FileName); logotipo.SaveAs(strFileName);
+                        produto.UpImgMimeType = upimg.ContentType;
+                        produto.UpImg = SetUpImg(upimg);
                     }
-                    produtoServico.GravarProduto(produto);
+                    produto.GravarProduto(produto);
                     return RedirectToAction("Index");
                 }
+                if (upimg != null)
+                {
+                    produto.UpImgMimeType = upimg.ContentType;
+                    produto.UpImg = SetUpImg(upimg);
+                    produto.NomeArquivo = upimg.FileName;
+                    produto.TamanhoArquivo = upimg.ContentLength;
+                }
+                
+                produto.GravarProduto(produto);
                 PopularViewBag(produto);
                 return View(produto);
             }
@@ -67,66 +91,40 @@ namespace malfatti.Controllers
             }
         }
 
-        public FileContentResult GetLogotipo(long id)
+        //transfrma o arquivo recebido em um vetor de bytes
+        private byte[] SetUpImg(HttpPostedFileBase upimg)
         {
-            Produto produto = produtoServico.ObterProdutoPorId(id);
+            var bytesUpImg = new byte[upimg.ContentLength];
+            upimg.InputStream.Read(bytesUpImg, 0, upimg.ContentLength);
+            return bytesUpImg;
+        }
+
+        //contém a imagem para a exibição na visão
+        public FileContentResult GetUpImg(long id)
+        {
+            Produto produto = produto.ObterProdutoPorId(id);
             if (produto != null)
             {
-                return File(produto.Logotipo, produto.LogotipoMimeType);
+                return File(produto.UpImg, produto.UpImgMimeType);
             }
             return null;
         }
 
+        //transferece o arquivo copiado do banco de dados para a pasta de download
         public ActionResult DownloadArquivo(long id)
         {
-            Produto produto = produtoServico.ObterProdutoPorId(id);
+            Produto produto = produto.ObterProdutoPorId(id);
             FileStream fileStream = new FileStream(Server.MapPath("~/App_Data/" + produto.NomeArquivo), FileMode.Create, FileAccess.Write);
-            fileStream.Write(produto.Logotipo, 0, Convert.ToInt32(produto.TamanhoArquivo));
+            fileStream.Write(produto.UpImg, 0, Convert.ToInt32(produto.TamanhoArquivo));
             fileStream.Close();
-            return File(fileStream.Name, produto.LogotipoMimeType, produto.NomeArquivo);
+            return File(fileStream.Name, produto.UpImgMimeType, produto.NomeArquivo);
         }
 
-        public ActionResult DownloadArquivo2(long id)
-        {
-            Produto produto = produtoServico.ObterProdutoPorId(id);
-            FileStream fileStream = new FileStream(Server.MapPath("~/App_Data/" + produto.NomeArquivo), FileMode.Open, FileAccess.Read);
-            return File(fileStream.Name, produto.LogotipoMimeType, produto.NomeArquivo);
-        }
 
-        public FileContentResult GetLogotipo2(long id)
+        [Authorize(Roles = "Administradores")]
+        public ActionResult Index()
         {
-            Produto produto = produtoServico.ObterProdutoPorId(id);
-            if (produto != null)
-            {
-                if (produto.NomeArquivo != null)
-                {
-                    var bytesLogotipo = new byte[produto.TamanhoArquivo];
-                    FileStream fileStream = new
-                    FileStream(Server.MapPath("~/App_Data/" + produto.NomeArquivo), FileMode.Open,
-                    FileAccess.Read);
-                    fileStream.Read(bytesLogotipo, 0, (int)produto.TamanhoArquivo);
-                    return File(bytesLogotipo, produto.LogotipoMimeType);
-                }
-            }
-            return null;
-        }
-
-        private void PopularViewBag(Produto produto = null)
-        {
-            if (produto == null)
-            {
-                ViewBag.CategoriaId = new SelectList(categoriaServico.ObterCategoriasClassificadasPorNome(),
-                "CategoriaId", "Nome");
-                ViewBag.FabricanteId = new SelectList(fabricanteServico.ObterFabricantesClassificadosPorNome(),
-                "FabricanteId", "Nome");
-            }
-            else
-            {
-                ViewBag.CategoriaId = new SelectList(categoriaServico.ObterCategoriasClassificadasPorNome(),
-                "CategoriaId", "Nome", produto.CategoriaId);
-                ViewBag.FabricanteId = new SelectList(fabricanteServico.ObterFabricantesClassificadosPorNome(),
-                "FabricanteId", "Nome", produto.FabricanteId);
-            }
+            return View(produtoServico.ObterProdutosClassificadosPorNome());
         }
 
         // GET: Produtos/Details/5
