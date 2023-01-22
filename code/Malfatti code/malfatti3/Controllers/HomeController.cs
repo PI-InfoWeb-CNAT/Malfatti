@@ -7,28 +7,14 @@ using System.Web.Mvc;
 
 namespace malfatti.Controllers
 {
-    public class HomeController : Controller
+     public class HomeController : Controller
     {
-        private ProdutoServico produtoServico = new ProdutoServico();
+        private Produto produto = new Produto();
+        // GET: Seguranca/Home
         public ActionResult Index()
         {
-            return View(produtoServico.ObterProdutosClassificadosPorNome());
-        }
-
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
+            
             return View();
         }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
-
-       
     }
 }
