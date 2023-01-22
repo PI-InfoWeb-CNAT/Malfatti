@@ -4,14 +4,14 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Persistencia.Context;
-using GORDON_STORE_BETA.Models;
-using GORDON_STORE_BETA.Models.ViewModels;
+using malfatti.Models;
+using malfatti.Models.ViewModels;
 using Modelo.Cadastro;
 using Modelo.Cart;
 using Modelo.Sistema;
 using Microsoft.AspNet.Identity.EntityFramework;
 
-namespace GORDON_STORE_BETA.Controllers
+namespace malfatti.Controllers
 {
     public class CartController : Controller
     {
