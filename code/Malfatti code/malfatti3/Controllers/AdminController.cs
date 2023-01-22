@@ -11,7 +11,7 @@ using Modelo.Sistema;
 using System.Net;
 using System.Net.Mail;
 
-namespace malfatti Controllers
+namespace malfatti.Controllers
 {
     public class AdminController : Controller
     {
