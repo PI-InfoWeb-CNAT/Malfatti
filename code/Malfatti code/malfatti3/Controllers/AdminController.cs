@@ -4,14 +4,14 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Microsoft.AspNet.Identity.Owin;
-using GORDON_STORE_BETA.Infraestrutura;
+using malfatti.Infraestrutura;
 using Microsoft.AspNet.Identity;
-using GORDON_STORE_BETA.Areas.Seguranca.Models;
+using malfatti.Models;
 using Modelo.Sistema;
 using System.Net;
 using System.Net.Mail;
 
-namespace GORDON_STORE_BETA.Areas.Seguranca.Controllers
+namespace malfatti Controllers
 {
     public class AdminController : Controller
     {
