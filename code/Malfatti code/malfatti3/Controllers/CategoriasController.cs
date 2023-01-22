@@ -14,11 +14,12 @@ namespace malfatti.Controllers
     {
         private EFContext context = new EFContext();
 
-        //private static IList<Categoria> categorias = new List<Categoria>()
-        //{
-        //new Categoria() { CategoriaId = 1, Nome = "Nootebooks"},
-        //new Categoria() { CategoriaId = 2, Nome = "Monitores"}
-        //};
+        private static IList<Categoria> categorias = new List<Categoria>()
+        {
+        new Categoria() { CategoriaId = 1, Nome = "Anéis"},
+        new Categoria() { CategoriaId = 2, Nome = "Brincos"}
+        new Categoria() { CategoriaId = 2, Nome = "Colares"}
+        };
 
         // GET: Categorias
         public ActionResult Index()
