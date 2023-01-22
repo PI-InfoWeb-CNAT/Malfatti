@@ -11,7 +11,7 @@ using System.Web;
 using System.Web.Mvc;
 using Modelo.Sistema;
 
-namespace GORDON_STORE_BETA.Areas.Seguranca.Controllers
+namespace malfatti.Controllers
 {
     public class PapelAdminController : Controller
     {
