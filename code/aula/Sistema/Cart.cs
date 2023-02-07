@@ -1,4 +1,5 @@
-﻿using malfatti.Models;
+﻿using malfatti.Areas.Seguranca.Models;
+using malfatti.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

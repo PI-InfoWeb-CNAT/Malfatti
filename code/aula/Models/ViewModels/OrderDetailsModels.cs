@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace malfatti.Carrinho
-{
-    public class ShoppingCartItem
-    {
-    }
-}
+//namespace o.ViewModel
+//{
+//    public class OrderDetailsModel
+//    {
+//    }
+//}
