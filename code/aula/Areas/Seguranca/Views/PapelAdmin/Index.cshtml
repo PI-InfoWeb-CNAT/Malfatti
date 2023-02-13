@@ -17,8 +17,7 @@
         {
             <tr>
                 <td colspan="4" class="text-center">
-                    Sem	papéis
-                    registrados
+                    Sem	papéis registrados
                 </td>
             </tr>
         }
@@ -30,8 +29,7 @@
                     <td>@role.Id</td>
                     <td>@role.Name</td>
                     <td>
-                        @if (role.Users == null || role.Users.
-                                        Count == 0)
+                        @if (role.Users == null || role.Users.Count == 0)
                         {
                             @:	Sem	usuários	no	papel
                         }
@@ -49,9 +47,7 @@
                                              {
                                                  @class = "btn	btn-primary	btn-xs"
                                              })
-                            <button class="btn	btn-danger	btn-xs"
-                                    type="submit">
-                                Delete
+                            <button class="btn	btn-danger	btn-xs" type="submit">Delete
                             </button>
                         }
                     </td>
@@ -60,5 +56,4 @@
         }
     </table>
 </div>
-@Html.ActionLink("Criar	um	novo	papel", "Create", null, new
-                { @class = "btn	btn-primary" })
+@Html.ActionLink("Criar	um	novo	papel", "Create", null, new { @class = "btn	btn-primary" })
