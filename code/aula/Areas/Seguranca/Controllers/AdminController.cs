@@ -11,7 +11,7 @@ namespace malfatti.Areas.Seguranca.Controllers
 {
 	public class AdminController : Controller
 	{
-		[Authorize(Roles = "Administradores")]
+		[Authorize]
 		public ActionResult Index()
 		{
 			return View(GerenciadorUsuario.Users);

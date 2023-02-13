@@ -1,5 +1,4 @@
 ﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="..\packages\Microsoft.CodeAnalysis.Analyzers.3.3.3\build\Microsoft.CodeAnalysis.Analyzers.props" Condition="Exists('..\packages\Microsoft.CodeAnalysis.Analyzers.3.3.3\build\Microsoft.CodeAnalysis.Analyzers.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -107,9 +106,6 @@
     </Reference>
     <Reference Include="Microsoft.AspNetCore.WebUtilities, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNetCore.WebUtilities.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.WebUtilities.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.DotNet.PlatformAbstractions, Version=2.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
@@ -409,13 +405,14 @@
     <Compile Include="Areas\Seguranca\Models\Papel.cs" />
     <Compile Include="Areas\Seguranca\Models\SegurancaViewModelos .cs" />
     <Compile Include="Areas\Seguranca\Models\Usuario.cs" />
+    <Compile Include="Areas\Seguranca\Models\UsuarioAdm.cs" />
     <Compile Include="Areas\Seguranca\SegurançaAreaRegistration.cs" />
     <Compile Include="Areas\Tabelas\TabelasAreaRegistration.cs" />
     <Compile Include="Carrinho\ShoppingCartItem.cs" />
     <Compile Include="Cart\Order.cs" />
     <Compile Include="Cart\OrderDetails.cs" />
     <Compile Include="Context\EFContext.cs" />
-    <Compile Include="Controllers\CarrinhosController.cs" />
+    <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Areas\Tabelas\Controllers\CategoriasController.cs" />
     <Compile Include="Areas\Cadastros\Controllers\FabricantesController.cs" />
     <Compile Include="Areas\Cadastros\Controllers\ProdutosController.cs" />
@@ -427,12 +424,24 @@
     <Compile Include="Infraestrutura\GerenciadorPapel.cs" />
     <Compile Include="Infraestrutura\GerenciadorUsuario.cs" />
     <Compile Include="Infraestrutura\IdentityHelpers.cs" />
+    <Compile Include="Models\Cart.cs" />
+    <Compile Include="Models\Cart\Order.cs" />
+    <Compile Include="Models\Cart\OrderDetails.cs" />
     <Compile Include="Models\Categoria.cs" />
     <Compile Include="Models\Fabricante.cs" />
     <Compile Include="Models\ItemProduto.cs" />
     <Compile Include="Models\Pedido.cs" />
     <Compile Include="Models\Produto.cs" />
     <Compile Include="Models\Usuario.cs" />
+    <Compile Include="Models\ViewModels\CartVM.cs" />
+    <Compile Include="Models\ViewModels\CartVMPartial.cs" />
+    <Compile Include="Models\ViewModels\OrderDetailsModels.cs" />
+    <Compile Include="Models\ViewModels\OrderModel.cs" />
+    <Compile Include="Models\ViewModels\OrderVM.cs" />
+    <Compile Include="Models\ViewModels\ProdutoVM.cs" />
+    <Compile Include="Models\ViewModels\Shop.cs" />
+    <Compile Include="Models\ViewModels\ShoppingCartModel.cs" />
+    <Compile Include="Models\ViewModels\ShoppingViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sistema\Cart.cs" />
   </ItemGroup>
@@ -463,7 +472,10 @@
     <Content Include="Views\Usuario\Edit.cshtml" />
     <Content Include="Views\Usuario\Delete.cshtml" />
     <Content Include="Views\Usuario\Index.cshtml" />
-    <Content Include="Views\Carrinhos\Carrinho.cshtml" />
+    <Content Include="Views\Cart\Index.cshtml" />
+    <Content Include="Views\Cart\CartPartial.cshtml" />
+    <Content Include="Views\Cart\AddToCartPartial.cshtml" />
+    <Content Include="Views\Cart\PaypalPartial.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -514,7 +526,6 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.CodeAnalysis.Analyzers.3.3.3\build\Microsoft.CodeAnalysis.Analyzers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeAnalysis.Analyzers.3.3.3\build\Microsoft.CodeAnalysis.Analyzers.props'))" />
     <Error Condition="!Exists('..\packages\Microsoft.CodeAnalysis.Analyzers.3.3.3\build\Microsoft.CodeAnalysis.Analyzers.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeAnalysis.Analyzers.3.3.3\build\Microsoft.CodeAnalysis.Analyzers.targets'))" />
-    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
   </Target>
   <Import Project="..\packages\Microsoft.CodeAnalysis.Analyzers.3.3.3\build\Microsoft.CodeAnalysis.Analyzers.targets" Condition="Exists('..\packages\Microsoft.CodeAnalysis.Analyzers.3.3.3\build\Microsoft.CodeAnalysis.Analyzers.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
