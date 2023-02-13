@@ -4,7 +4,6 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Listagem de PRODUTOS";
 }
-     //obs
      
 @if (@TempData["Message"] != null)
 {
@@ -29,6 +28,7 @@
                     <th>
                         @Html.DisplayNameFor(model => model.Preco)
                     </th>
+                    <th>Descrição</th>
                     <th>Categoria</th>
                     <th>Fabricante</th>
                 </tr>
@@ -50,9 +50,6 @@
                         @Html.DisplayFor(modelItem => item.Descricao)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Disponivel)
-                    </td>
-                    <td>
                         @Html.DisplayFor(modelItem => item.Categoria.Nome)
                     </td>
                     <td>
@@ -62,7 +59,7 @@
                         @Html.ActionLink("Alterar", "Edit", new { id = item.ProdutoId }) |
                         @Html.ActionLink("Detalhes", "Details", new { id = item.ProdutoId }) |
                         @Html.ActionLink("Eliminar", "Delete", new { id = item.ProdutoId })
-                        @Html.ActionLink("Carrinho", "AddToCartPartial", new { id = item.ProdutoId })
+                        <a href="/Cart/AddToCartPartial/@item.ProdutoId" style="height: 27px">Carrinho</a>
                     </td>
                 </tr>
                 }

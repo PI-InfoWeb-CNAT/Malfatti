@@ -39,20 +39,20 @@
                 <ul class="nav nav-pills nav-stacked">
                     <li id="liHome" role="presentation" class="active"><a href="#">Home</a></li>
                     <li id="liCategorias" role="presentation">
-                        @Html.ActionLink("Categorias", "Index", "Categorias")
+                        <a href="/Tabelas/Categorias/Index">Categorias</a>
                     </li>
                     <li id="liFabricantes" role="presentation">
-                        @Html.ActionLink("Fabricantes", "Index", "Fabricantes")
+                        <a href="/Cadastros/Fabricantes/Index">Fabricantes</a>
                     </li>
                     <li id="liProdutos" role="presentation">
-                        @Html.ActionLink("Produtos", "Index", "Produto")
+                        <a href="/Cadastros/Produto/Index">Produtos</a>
                     </li>
                     <li id="liUsuarios" role="presentation">
-                        @Html.ActionLink("Usuários", "Index", "Admin", new { area = "Seguranca" },null)
+                        <a href="/Seguranca/Admin/Index">Fabricantes</a>
                     </li>
-                        <li id="liCarrinhos" role="presentation">
-                            @Html.ActionLink("Carrinho", "Index", "Cart")
-                        </li>
+                    <li id="liCarrinhos" role="presentation">
+                        <a href="/Cart/Index">Carrinho</a>
+                    </li>
                 </ul>
             </div>
             <div class="col-xs-9 col-md-9">
@@ -68,6 +68,7 @@
     </div>
     <script src="@Url.Content("~/scripts/jquery-1.10.2.js")"></script>
     <script src="@Url.Content("~/scripts/bootstrap.js")"></script>
-    @RenderSection("ScriptPage", false);
+    @RenderSection("ScriptPage", true);
+    @*@RenderSection("Scripts", true);*@
 </body>
 </html>

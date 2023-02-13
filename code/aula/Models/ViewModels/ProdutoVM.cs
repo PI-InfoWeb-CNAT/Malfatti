@@ -17,8 +17,7 @@ namespace malfatti.Models.ViewModels
             Preco = (float)row.Preco;
             Categoria = row.Categoria;
             CategoriaId = row.CategoriaId;
-            //NomeArquivo = row.Nome;
-            //Slug = row.Slug;
+
         }
 
         [DisplayName("Id")]

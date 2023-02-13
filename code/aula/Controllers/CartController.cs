@@ -14,7 +14,6 @@ namespace malfatti.Controllers
     {
         private EFContext context = new EFContext();
         private IdentityDbContext db = new IdentityDbContext();
-        [Authorize]
         // GET: Cart
         public ActionResult Index()
         {
@@ -74,8 +73,7 @@ namespace malfatti.Controllers
                 model.Preco = 0;
             }
 
-            // Return partial view with model
-            return PartialView(model);
+            return RedirectToAction("Index");
         }
         public ActionResult AddToCartPartial(long id)
         {
@@ -139,7 +137,7 @@ namespace malfatti.Controllers
             Session["cart"] = cart;
 
             // Return partial view with model
-            return PartialView(model);
+            return RedirectToAction("/Index");
         }
 
         // GET: /Cart/IncrementProduct
@@ -190,14 +188,13 @@ namespace malfatti.Controllers
                 // Store needed data
                 var result = new { qty = model.Quantidade, price = model.Preco };
 
-                // Return json
-                return Json(result, JsonRequestBehavior.AllowGet);
+                return RedirectToAction("Cart", "Index");
             }
 
         }
 
         // GET: /Cart/RemoveProduct
-        public void RemoveProduct(long produtoId)
+        public ActionResult RemoveProduct(long? produtoId)
         {
             // Init cart list
             List<CartVM> cart = Session["cart"] as List<CartVM>;
@@ -210,6 +207,7 @@ namespace malfatti.Controllers
                 // Remove model from list
                 cart.Remove(model);
             }
+            return RedirectToAction("/Index");
         }
 
         public ActionResult PaypalPartial()

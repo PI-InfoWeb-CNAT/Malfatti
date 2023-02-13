@@ -19,8 +19,7 @@ namespace aula.Cart
 
         [ForeignKey("OrderId")]
         public virtual Order Orders { get; set; }
-        //[ForeignKey("UserId")]
-        //public virtual UsuarioAdm Users { get; set; }
+
         [ForeignKey("ProdutoId")]
         public virtual Produto Produtos { get; set; }
     }
